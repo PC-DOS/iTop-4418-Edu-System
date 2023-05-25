@@ -1,0 +1,11 @@
+prefix=/home/topeet/wpa/openssl-0.9.8za/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries
+Version: 0.9.8za
+Requires: 
+Libs: -L${libdir} -lssl -lcrypto 
+Cflags: -I${includedir} 

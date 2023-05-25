@@ -1,0 +1,6 @@
+/boot/Image
+/boot/zImage
+/boot/xipImage
+/boot/bootpImage
+/boot/uImage
+/boot.img

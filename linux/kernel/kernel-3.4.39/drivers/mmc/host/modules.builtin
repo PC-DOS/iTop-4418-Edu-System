@@ -1,0 +1,2 @@
+kernel/drivers/mmc/host/dw_mmc.ko
+kernel/drivers/mmc/host/dw_mmc-pltfm.ko

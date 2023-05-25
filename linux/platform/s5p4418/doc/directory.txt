@@ -1,0 +1,57 @@
+* Top Directory Architecture
+
+linux 
+    +---+--- apps       : application directory for each H/W module test.
+        +--- doc        : document directory
+        +--- fs         : file system directory.
+        +--- library    : library directory.
+        +--- modules    : module device dirver directory.
+        +--- tools      : tool directory.(include toolchain)
+
+
+* "apps" directory Architecture
+
+apps 
+    +---+--- adc_test            : ADC test application.
+        +--- audio_test          : audio play test application.
+        +--- gpio_test           : GPIO test application.      
+        +--- movie_player_app    : Movie player API example application.
+        +--- nmea_test           : NMEA parser test application.      
+        +--- transcoding_example : Transcoding example application( including scaling )
+        +--- typefind_app        : find media information test application.      
+        +--- v4l2_test           : v4l2 module test application.
+        +--- vpu_test            : video en/decoding test application.
+
+
+* "fs" directory Architecture
+
+fs
+    +---+--- buildroot  : Root file system making tool.
+
+
+* "library" directory Architecture
+
+library 
+    +---+--- include                 : common library include directory
+        +--- lib                     : library src output directory
+        |     +--- gstreamer-0.10    : Prebuilt gstreamer plugins.
+        +--- src
+              +--- libion            : ION Memory Allocator Library.
+              +--- libnxadc          : ADC Library
+              +--- libnxaudio        : Audio Control Library
+              +--- libnxgpio         : Gpio Control Library
+              +--- libnxgraphictools : 3D Graphic Library.
+              +--- libnxmalloc       : Video Memory Allocatior Library.
+              +--- libnxmovieplayer  : Movie Player Library.
+              +--- libnxnmeaparser   : NMEA Parser Library            
+              +--- libnxscaler       : Fine Scaler Library.
+              +--- libnxtypefind     : Find Media Information Library            
+              +--- libnxv4l2         : V4L2 Wrapper Libarary for Display & Camera Capture.
+              +--- libnxvpu          : Video En/Decoder ioctl Wrapper Library.
+
+
+* "modules" directory Architecture
+
+modules 
+    +---+--- coda960  : video en/decoder H/W accelator moudle device driver.
+

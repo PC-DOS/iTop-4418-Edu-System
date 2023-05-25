@@ -1,0 +1,44 @@
+-. Cross Compiling LIVE555
+
+[SOL_DIR]		: your solution directory path.
+[INC_DIR]		: your include directory path.
+[LIB_DIR]		: your library directory path.
+if directory is not exist, make directory.
+
+1. Prepare Source Code
+
+# cd [SOL_DIR]/BlackBoxSolution/src/live555
+# tar xvzf live555-latest.tar.gz
+
+
+2. Change Working directory
+
+# cd [SOL_DIR]BlackBoxSolution/src/live555/live
+
+
+3. Modify default Makefile
+
+# vi config.armlinux
+
+CROSS_COMPILE?=		arm-elf-
+  => CROSS_COMPILE?=	arm-cortex_a9-linux-gnueabi-
+
+
+4. Create Makefile & Build
+
+# ./genMakefiles armlinux
+# make -j8
+
+
+5. Copy include & library files.
+
+# cp -a ./liveMedia/include [INC_DIR]/live555/liveMedia
+# cp -a ./groupsock/include [INC_DIR]/live555/groupsock
+# cp -a ./BasicUsageEnvironment/include [INC_DIR]/live555/BasicUsageEnvironment
+# cp -a ./UsageEnvironment/include [INC_DIR]/live555/UsageEnvironment
+
+# cp -a ./liveMedia/libliveMedia.a [LIB_DIR]
+# cp -a ./groupsock/libgroupsock.a [LIB_DIR]
+# cp -a ./BasicUsageEnvironment/libBasicUsageEnvironment.a [LIB_DIR]
+# cp -a ./UsageEnvironment/libUsageEnvironment.a [LIB_DIR]
+

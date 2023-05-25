@@ -1,0 +1,8 @@
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/codecs/snd-soc-alc5623.ko
+kernel/sound/soc/codecs/snd-soc-spdif.ko
+kernel/sound/soc/nexell/nxp-snd-pcm.ko
+kernel/sound/soc/nexell/nxp-snd-i2s.ko
+kernel/sound/soc/nexell/nxp-snd-spdiftx.ko
+kernel/sound/soc/nexell/nxp-snd-rt5623.ko
+kernel/sound/soc/nexell/nxp-snd-spdif-transciever.ko

@@ -1,0 +1,67 @@
+{
+LCD TEST,
+libnxtestLcd.so,
+test_LCD,
+ 
+}
+{
+BACKLIGHT TEST,
+libnxtestback.so,
+test_Backlight,
+ 
+}
+{
+VIBRATOR TEST,
+libnxtestvibrator.so,
+test_vibrator,
+ 
+}
+{
+WIFI TEST,
+libnxtestwifi.so,
+test_Wifi_Test,
+essid.txt
+}
+{
+TOUCH TEST,
+libnxtesttouch.so,
+test_touch,
+ 
+}
+{
+SENSOR TEST,
+libnxtestSensor.so,
+test_Sensor_Test,
+ 
+}
+{
+KEY TEST,
+libnxtestKey.so,
+test_Key_Test,
+ 
+}
+
+{
+AUDIO REC test,
+libnxtestAudio.so,
+test_AudioRec,
+ 
+}
+{
+USB TEST,
+libnxtestusb.so,
+test_USB_Test,
+ 
+}
+{
+SD TEST,
+libnxtestsd.so,
+test_sd_Test,
+ 
+}
+{
+CAMERA_TEST,
+libnxtestCamera.so,
+test_Camera,
+ 
+}

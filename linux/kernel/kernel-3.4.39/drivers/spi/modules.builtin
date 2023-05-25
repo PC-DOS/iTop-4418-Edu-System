@@ -1,0 +1,2 @@
+kernel/drivers/spi/spi-pl022.ko
+kernel/drivers/spi/rc522.ko

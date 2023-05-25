@@ -1,0 +1,5 @@
+kernel/arch/arm/mach-s5p4418/dev-mmc.ko
+kernel/arch/arm/mach-s5p4418/prototype/module/nx_rtc.ko
+kernel/arch/arm/mach-s5p4418/prototype/module/nx_adc.ko
+kernel/arch/arm/mach-s5p4418/prototype/module/nx_rtc.ko
+kernel/arch/arm/mach-s5p4418/prototype/module/nx_ppm.ko

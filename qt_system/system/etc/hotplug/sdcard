@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#Judge device action variable ($ACTION)
+if [ $ACTION == "add" ]
+then
+	#Device plugged operations
+	echo "Hotplug: SD card $MDEV plugged." > /dev/console
+	if [ -e "/dev/$MDEV" ] ; then
+		mkdir -p /mnt/$MDEV
+		mount -rw /dev/$MDEV /mnt/$MDEV
+		echo "Hotplug: SD card $MDEV mounted to /mnt/$MDEV ." > /dev/console
+	fi
+else
+	#Device unplugged operations
+	echo "Hotplug: SD card $MDEV unplugged. Unmounting /mnt/$MDEV ..." > /dev/console
+	umount /mnt/$MDEV
+	rm -r /mnt/$MDEV
+fi

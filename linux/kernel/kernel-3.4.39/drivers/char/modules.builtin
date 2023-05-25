@@ -1,0 +1,2 @@
+kernel/drivers/char/max485_ctl.ko
+kernel/drivers/char/hw_random/rng-core.ko

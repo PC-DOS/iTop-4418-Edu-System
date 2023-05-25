@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="modules">
+      <UniqueIdentifier>{10e583cc-e297-4814-a2c6-23fe985325e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\lcd_test">
+      <UniqueIdentifier>{af003048-6f9e-477a-8383-dc7716d9464e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{11a2ffb7-a873-4108-9554-10a300bd9ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ae2b4013-81bd-4339-8a67-39e835cfcdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\key_test">
+      <UniqueIdentifier>{6565a561-c86b-4552-bfb9-3d3afe1de17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\touch_test">
+      <UniqueIdentifier>{981fc719-6f6a-49d5-9bf9-f8b277d776b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\audio_play_test">
+      <UniqueIdentifier>{a9295ea4-dfd4-4af7-a252-de3ea699dc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\audio_record_test">
+      <UniqueIdentifier>{dec3cf70-8347-459c-a501-78f1db0020e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\backlight_test">
+      <UniqueIdentifier>{74e9ce8d-1b77-47c9-8d29-2e3cb2885eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\camera_test">
+      <UniqueIdentifier>{9b4612c7-df5a-450d-a751-2305c5de33ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\vibrator">
+      <UniqueIdentifier>{79b96ceb-a1c4-4d59-89a7-32ebc7676303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\hdmi_test">
+      <UniqueIdentifier>{52d0aa33-e09d-45fa-8752-83f121c3465b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\wifi_test">
+      <UniqueIdentifier>{dd1fc319-8c7d-444c-a536-a293f5b1a5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\usb_test">
+      <UniqueIdentifier>{923c122b-118a-475e-942d-87687af5d7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\sd_test">
+      <UniqueIdentifier>{fb35bc79-212a-4e60-a392-4d0f15c0d1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\ethernet_test">
+      <UniqueIdentifier>{ac16e6a9-d3ea-4dd5-97b0-55ff8b1fd16f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main\top_window.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\audio_play_test\NX_CWaveOut.h">
+      <Filter>modules\audio_play_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\lcd_test\lcd_test.cpp">
+      <Filter>modules\lcd_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main\top_window.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\key_test\key_test.cpp">
+      <Filter>modules\key_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\touch_test\touch_test.cpp">
+      <Filter>modules\touch_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\audio_play_test\audio_test.cpp">
+      <Filter>modules\audio_play_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\audio_play_test\NX_CWaveOut.cpp">
+      <Filter>modules\audio_play_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\audio_rec_test\audio_rec_test.cpp">
+      <Filter>modules\audio_record_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\backlight\backlight_test.cpp">
+      <Filter>modules\backlight_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vibrator\vibrator_test.cpp">
+      <Filter>modules\vibrator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\camera_test\camera_test.cpp">
+      <Filter>modules\camera_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hdmi_test\hdmi_test.cpp">
+      <Filter>modules\hdmi_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wifi_test\wifi_test.cpp">
+      <Filter>modules\wifi_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd_test\sd_test.cpp">
+      <Filter>modules\sd_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\usb_test\usb_test.cpp">
+      <Filter>modules\usb_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ethernet\udp4_ll.c">
+      <Filter>modules\ethernet_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ethernet\ethernet_test.cpp">
+      <Filter>modules\ethernet_test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\lcd_test\Makefile">
+      <Filter>modules\lcd_test</Filter>
+    </None>
+    <None Include="..\..\src\main\Makefile">
+      <Filter>main</Filter>
+    </None>
+    <None Include="..\..\src\common\Makefile">
+      <Filter>common</Filter>
+    </None>
+    <None Include="..\..\src\key_test\Makefile">
+      <Filter>modules\key_test</Filter>
+    </None>
+    <None Include="..\..\Makefile" />
+    <None Include="..\..\src\Makefile">
+      <Filter>modules</Filter>
+    </None>
+    <None Include="..\..\src\touch_test\Makefile">
+      <Filter>modules\touch_test</Filter>
+    </None>
+    <None Include="..\..\src\audio_play_test\Makefile">
+      <Filter>modules\audio_play_test</Filter>
+    </None>
+    <None Include="..\..\src\audio_rec_test\Makefile">
+      <Filter>modules\audio_record_test</Filter>
+    </None>
+    <None Include="..\..\src\backlight\Makefile">
+      <Filter>modules\backlight_test</Filter>
+    </None>
+    <None Include="..\..\src\vibrator\Makefile">
+      <Filter>modules\vibrator</Filter>
+    </None>
+    <None Include="..\..\src\camera_test\Makefile">
+      <Filter>modules\camera_test</Filter>
+    </None>
+    <None Include="..\..\src\hdmi_test\Makefile">
+      <Filter>modules\hdmi_test</Filter>
+    </None>
+    <None Include="..\..\src\wifi_test\Makefile">
+      <Filter>modules\wifi_test</Filter>
+    </None>
+    <None Include="..\..\src\sd_test\Makefile">
+      <Filter>modules\sd_test</Filter>
+    </None>
+    <None Include="..\..\src\usb_test\Makefile">
+      <Filter>modules\usb_test</Filter>
+    </None>
+    <None Include="..\..\src\ethernet\Makefile">
+      <Filter>modules\ethernet_test</Filter>
+    </None>
+  </ItemGroup>
+</Project>
