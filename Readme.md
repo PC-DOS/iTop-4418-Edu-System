@@ -158,7 +158,7 @@ make menuconfig
 
 [开机画面修改](ModificationLog/iTop-4418-Boot-Splash-Screen-Config-Log.md)
 
-[Qt/E 4.8.7编译、安装与配置](ModificationLog/iTop-4418-QtE-4-7-8-Config-Log.md)
+[Qt/E 4.8.7编译、安装与配置](ModificationLog/iTop-4418-QtE-4-8-7-Config-Log.md)
 
 [移除厂商驱动程序中的输出文本](ModificationLog/iTop-4418-Remove-OEM-Driver-Print.md)
 
