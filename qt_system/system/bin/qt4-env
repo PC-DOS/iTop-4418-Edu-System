@@ -60,6 +60,6 @@ export QWS_DISPLAY="LinuxFb:mmWidth91:mmHeight53:1"
 esac
 #export QWS_DISPLAY=:1
 
-export QWS_DISPLAY="LinuxFb:mmWidth240:mmHeight180:1"
+export QWS_DISPLAY="LinuxFb:mmWidth128:mmHeight72:1"
 
 export HOME=/root

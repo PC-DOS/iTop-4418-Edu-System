@@ -166,8 +166,8 @@ else
 
 ## Qt/E环境变量修改
 
-修改Qt/E根文间系统中对`QWS_DISPLAY`变量的导出，避免字体过大问题，将`/bin/qt4`中的`export QWS_DISPLAY=Transformed:Rot0`行改为：
+修改Qt/E根文件系统中对`QWS_DISPLAY`变量的导出，避免字体问题，将`/bin/qt4`中的`export QWS_DISPLAY=Transformed:Rot0`行改为：
 
 ```
-export QWS_DISPLAY=LinuxFb:mmWidth240:mmHeight180:1
+export QWS_DISPLAY=LinuxFb:mmWidth128:mmHeight72:1
 ```
